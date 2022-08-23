@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünlerimiz</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        #ürünler {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #ürünler .ürün {
+            height: 400px;
+            width: 400px;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img {
+            width: 100%;
+            height: 90%;
+            object-fit: contain;
+        }
+
+        .ürün-açıklama {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="başlık"> Müzik Dükkanım</h1>
+
+            <div class="menü">
+                <ul>
+                    <li><a href="anasayfa.html">Anasayfa</a></li>
+                    <li><a href="ürünlerimiz.html">Ürünler</a></li>
+                    <li><a href="hakkında.html">Hakkımızda</a></li>
+                </ul>
+            </div>
+
+            <h3 class="sayfa">Ürünler</h3>
+        </div>
+
+        <div id="ürünler">
+            <div class="ürün">
+                <img class="img" src="gitar.jpg">
+                <span class="ürün-açıklama">
+                    Gitar J89-47
+                    <i>850TL</i>
+                </span>
+            </div>
+            <div class="ürün">
+                <img class="img" src="keman.jpg">
+                <span class="ürün-açıklama">
+                    Keman J89-47
+                    <i>750TL</i>
+                </span>
+            </div>
+            <div class="ürün">
+                <img class="img" src="davul.jpg">
+                <span class="ürün-açıklama">
+                    Davul J89-47
+                    <i>650TL</i>
+                </span>
+            </div>
+            <div class="ürün">
+                <img class="img" src="zurna.jpg">
+                <span class="ürün-açıklama">
+                    Zurna ZrnDrm-75cm
+                    <i>350TL</i>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

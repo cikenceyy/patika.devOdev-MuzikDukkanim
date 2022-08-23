@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.başlık {
+    font-size: 34px;
+}
+
+.menü ul li {
+    list-style-type: none;
+    font-size: 24px;
+    color: brown;
+    display: inline;
+}
+
+.menü ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menü ul li a {
+    color: cornflowerblue;
+    text-decoration: none;
+
+}
+
+.menü ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.sayfa {
+    color: brown;
+    font-size: 24px;
+}
